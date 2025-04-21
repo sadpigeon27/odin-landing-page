@@ -16,6 +16,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px 180px;
 }
 
@@ -44,8 +45,32 @@ body {
 
 .hero {
     display: flex;
-    gap: 36px;
+    align-items: center;
+    gap: 48px;
     padding: 48px 180px;
+}
+
+.title h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 18px;
+}
+
+.title p {
+    color: #e5e7eb;
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+.title button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .footer {
